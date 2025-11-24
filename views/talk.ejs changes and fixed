@@ -21,7 +21,7 @@
   <!-- ==============================
        Chat Box / Text Interaction
        ============================== -->
-  <div class="speak rounded-md bg-black flex flex-col items-center flex-1 px-4 relative">
+  <div class="rounded-md bg-black flex flex-col items-center flex-1 px-4 relative max-h-[50%]">
     
     <!-- Chat messages container -->
     <div class="container h-[80%] w-full overflow-scroll p-2 flex flex-col gap-1">
@@ -35,6 +35,35 @@
         <img class="w-[50%]" src="/assets/send.svg" alt="Send" />
       </button>
     </div>
+    
+    <!-- Voice feedback / speaking indicator could go here -->
+  </div>
+  
+  <!-- ==============================
+       AI / Voice Control Section
+       ============================== -->
+  <div class="speak rounded-md bg-[#f9f9f9] flex items-center justify-center flex-1 flex-col">
+    
+    <!-- AI animation / GIF -->
+    <img class="h-[50%] aspect-[172/129]" src="/assets/ai.gif" alt="AI Animation" />
+    
+    <!-- Start voice assistant button -->
+    <button id="startBtn" class="bg-blue-600 text-white p-2 rounded active:opacity-[0.8]">
+      Start Cherry
+    </button>
+  </div>
+  
+  <!-- ==============================
+       Libraries & Scripts
+       ============================== -->
+  <!-- Markdown parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  
+  <!-- Custom talk/voice script -->
+  <script src="./scripts/talk.js"></script>
+</body>
+
+</html>    </div>
     
     <!-- Voice feedback / speaking indicator could go here -->
   </div>
