@@ -1,0 +1,684 @@
+{
+  "VI": {
+    "MON": {
+      "I": "HINDI/ SKT",
+      "II": "SST( HL)",
+      "III": "MUSIC",
+      "IV": "SCI (DP)",
+      "V": "MATHS",
+      "VI": "HINDI/ SKT",
+      "VII": "COMP",
+      "VIII": "MATHS"
+    },
+    "TUES": {
+      "I": "HINDI/ SKT",
+      "II": "SST( HL)",
+      "III": "COMP",
+      "IV": "SCI (DP)",
+      "V": "ENG",
+      "VI": "HINDI/ SKT",
+      "VII": "MUSIC",
+      "VIII": "MATHS"
+    },
+    "WED": {
+      "I": "HINDI/ SKT",
+      "II": "SST( HL)",
+      "III": "COMP",
+      "IV": "SCI (DP)",
+      "V": "ENG",
+      "VI": "HINDI/ SKT",
+      "VII": "ARTS",
+      "VIII": "MATHS"
+    },
+    "THURS": {
+      "I": "HINDI/ SKT",
+      "II": "SST( HL)",
+      "III": "WE",
+      "IV": "SCI (DP)",
+      "V": "ENG",
+      "VI": "MUSIC",
+      "VII": "LIB",
+      "VIII": "MATHS"
+    },
+    "FRI": {
+      "I": "HINDI/ SKT",
+      "II": "SST( HL)",
+      "III": "LIB",
+      "IV": "SCI (DP)",
+      "V": "ENG",
+      "VI": "WE",
+      "VII": "GAMES(P)",
+      "VIII": "MATHS"
+    },
+    "SAT": {
+      "I": "YOGA/GMS",
+      "II": "SST( HL)",
+      "III": "WE",
+      "IV": "YOGA",
+      "V": "ENG",
+      "VI": "SCI (DP)",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  },
+  "VII": {
+    "MON": {
+      "I": "MATHS",
+      "II": "SCI(RS)",
+      "III": "HINDI/ SKT",
+      "IV": "HINDI/ SKT",
+      "V": "ART",
+      "VI": "LIB",
+      "VII": "SST(AK)",
+      "VIII": "ART"
+    },
+    "TUES": {
+      "I": "MATHS",
+      "II": "SCI(RS)",
+      "III": "HINDI/ SKT",
+      "IV": "HINDI/ SKT",
+      "V": "MATHS",
+      "VI": "ENG",
+      "VII": "SST(AK)",
+      "VIII": "WE"
+    },
+    "WED": {
+      "I": "MATHS",
+      "II": "SCI(RS)",
+      "III": "HINDI/ SKT",
+      "IV": "ART",
+      "V": "WED",
+      "VI": "ENG",
+      "VII": "SST(AK)",
+      "VIII": "ENG"
+    },
+    "THURS": {
+      "I": "MATHS",
+      "II": "SCI(RS)",
+      "III": "HINDI/ SKT",
+      "IV": "LIB",
+      "V": "GAMES(P)",
+      "VI": "ENG",
+      "VII": "SST(AK)",
+      "VIII": "GAMES(P)"
+    },
+    "FRI": {
+      "I": "MATHS",
+      "II": "SCI(RS)",
+      "III": "HINDI/ SKT",
+      "IV": "WE",
+      "V": "COMP",
+      "VI": "ENG",
+      "VII": "SST(AK)",
+      "VIII": "SST(AK)"
+    },
+    "SAT": {
+      "I": "YOGA/GMS",
+      "II": "SCI(RS)",
+      "III": "HINDI/ SKT",
+      "IV": "MUSIC",
+      "V": "COMP",
+      "VI": "YOGA/GMS",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  },
+  "VIII": {
+    "MON": {
+      "I": "ENG",
+      "II": "SCI(SK)",
+      "III": "ART",
+      "IV": "WE",
+      "V": "WE",
+      "VI": "SST(MD)",
+      "VII": "MATHS",
+      "VIII": "HINDI/ SKT"
+    },
+    "TUES": {
+      "I": "ENG",
+      "II": "SCI(SK)",
+      "III": "ART",
+      "IV": "GAMES(P)",
+      "V": "LIB",
+      "VI": "SST(MD)",
+      "VII": "MATHS",
+      "VIII": "HINDI/ SKT"
+    },
+    "WED": {
+      "I": "ENG",
+      "II": "SCI(SK)",
+      "III": "COMP",
+      "IV": "GAMES(P)",
+      "V": "MUSIC",
+      "VI": "SST(MD)",
+      "VII": "MATHS",
+      "VIII": "HINDI/ SKT"
+    },
+    "THURS": {
+      "I": "ENG",
+      "II": "SCI(SK)",
+      "III": "COMP",
+      "IV": "HINDI/ SKT",
+      "V": "ART",
+      "VI": "SST(MD)",
+      "VII": "MATHS",
+      "VIII": "HINDI/ SKT"
+    },
+    "FRI": {
+      "I": "ENG",
+      "II": "SCI(SK)",
+      "III": "WE",
+      "IV": "HINDI/ SKT",
+      "V": "GAMES",
+      "VI": "SST(MD)",
+      "VII": "MATHS",
+      "VIII": "HINDI/ SKT"
+    },
+    "SAT": {
+      "I": "YOGA / GMS",
+      "II": "SCI(SK)",
+      "III": "MATHS",
+      "IV": "LIB",
+      "V": "HINDI/SKT",
+      "VI": "SST(MD)",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  },
+  "IX": {
+    "MON": {
+      "I": "SST(HL)",
+      "II": "ENG",
+      "III": "MATHS",
+      "IV": "AI",
+      "V": "HINDI",
+      "VI": "MATHS",
+      "VII": "ARTS",
+      "VIII": "ENG"
+    },
+    "TUES": {
+      "I": "SST(HL)",
+      "II": "ENG",
+      "III": "WE",
+      "IV": "AI",
+      "V": "HINDI",
+      "VI": "MATHS",
+      "VII": "GAMES(P)",
+      "VIII": "ENG"
+    },
+    "WED": {
+      "I": "SST(HL)",
+      "II": "ENG",
+      "III": "CHEM",
+      "IV": "HINDI",
+      "V": "HINDI",
+      "VI": "MATHS",
+      "VII": "GAMES(P)",
+      "VIII": "ECO"
+    },
+    "THURS": {
+      "I": "BIO",
+      "II": "ENG",
+      "III": "GAMES(p)",
+      "IV": "SST(HL)",
+      "V": "PHY",
+      "VI": "MATHS",
+      "VII": "WE",
+      "VIII": "MUSIC"
+    },
+    "FRI": {
+      "I": "BIO",
+      "II": "ENG",
+      "III": "CHEM",
+      "IV": "SST(HL)",
+      "V": "HINDI",
+      "VI": "MATHS",
+      "VII": "HINDI",
+      "VIII": "PHY"
+    },
+    "SAT": {
+      "I": "BIO",
+      "II": "YOGA / GMS",
+      "III": "LIB",
+      "IV": "HINDI",
+      "V": "ECO",
+      "VI": "MATHS",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  },
+  "X": {
+    "MON": {
+      "I": "MATHS",
+      "II": "HINDI",
+      "III": "CHEM",
+      "IV": "ENG",
+      "V": "ENG",
+      "VI": "BIO",
+      "VII": "WE",
+      "VIII": "ECO"
+    },
+    "TUES": {
+      "I": "MATHS",
+      "II": "HINDI",
+      "III": "HINDI",
+      "IV": "ENG",
+      "V": "WE",
+      "VI": "SST(AK)",
+      "VII": "AI",
+      "VIII": "ART"
+    },
+    "WED": {
+      "I": "LIB",
+      "II": "HINDI",
+      "III": "HINDI",
+      "IV": "ENG",
+      "V": "PHY",
+      "VI": "SST(AK)",
+      "VII": "MATHS",
+      "VIII": "GAMES"
+    },
+    "THURS": {
+      "I": "MATHS",
+      "II": "GAMES(P)",
+      "III": "HINDI",
+      "IV": "ENG",
+      "V": "CHEM",
+      "VI": "SST(AK)",
+      "VII": "ART",
+      "VIII": "AI"
+    },
+    "FRI": {
+      "I": "MATHS",
+      "II": "GAMES(P)",
+      "III": "HINDI",
+      "IV": "ENG",
+      "V": "MATHS",
+      "VI": "SST(AK)",
+      "VII": "CHEM",
+      "VIII": "ECO"
+    },
+    "SAT": {
+      "I": "MATHS",
+      "II": "YOGA / GMS",
+      "III": "PHY",
+      "IV": "ENG",
+      "V": "BIO",
+      "VI": "SST(AK)",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  },
+  "XI SCI": {
+    "MON": {
+      "I": "PHYSICS",
+      "II": "ENG",
+      "III": "CS/WE",
+      "IV": "CHEM",
+      "V": "PHY/CHEM(PR)",
+      "VI": "PHY/CHEM(PR)",
+      "VII": "MATHS/BIO",
+      "VIII": "HIN/CS"
+    },
+    "TUES": {
+      "I": "PHYSICS",
+      "II": "ENG",
+      "III": "MATHS/BIO",
+      "IV": "CHEM",
+      "V": "PHY/CHEM(PR)",
+      "VI": "PHY/CHEM(PR)",
+      "VII": "CS/GAMES",
+      "VIII": "MATHS/BIO"
+    },
+    "WED": {
+      "I": "PHYSICS",
+      "II": "CS/CRAFT",
+      "III": "CS/WE",
+      "IV": "CHEM",
+      "V": "MATHS/BIO",
+      "VI": "MATHS/BIO",
+      "VII": "ENG",
+      "VIII": "HIN/WE"
+    },
+    "THURS": {
+      "I": "PHYSICS",
+      "II": "HIN/GAMES",
+      "III": "MATHS/BIO",
+      "IV": "CHEM",
+      "V": "ENG",
+      "VI": "CHEM",
+      "VII": "GS",
+      "VIII": "MATHS/BIO"
+    },
+    "FRI": {
+      "I": "PHYSICS",
+      "II": "HIN/GAMES",
+      "III": "CS/GAMES",
+      "IV": "CS/GAMES",
+      "V": "PHY/CHEM(PR)",
+      "VI": "PHY/CHEM(PR)",
+      "VII": "ENG",
+      "VIII": "MATHS/BIO"
+    },
+    "SAT": {
+      "I": "ENG",
+      "II": "HIN/CS",
+      "III": "HIN/CS",
+      "IV": "MATHS/BIO",
+      "V": "PHY/CHEM(PR)",
+      "VI": "PHY/CHEM(PR)",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  },
+  "XI COM": {
+    "MON": {
+      "I": "ACC",
+      "II": "ACC",
+      "III": "ECO",
+      "IV": "MATHS/ LIB",
+      "V": "ENG",
+      "VI": "BSTY",
+      "VII": "AI",
+      "VIII": "HINDI/MATHS"
+    },
+    "TUES": {
+      "I": "ACC",
+      "II": "ACC",
+      "III": "ECO",
+      "IV": "MATHS/WE",
+      "V": "AI",
+      "VI": "BSTY",
+      "VII": "ENG",
+      "VIII": "HINDI/MATHS"
+    },
+    "WED": {
+      "I": "ACC",
+      "II": "ACC",
+      "III": "ECO",
+      "IV": "ENG",
+      "V": "GAMES/MATHS",
+      "VI": "BSTY",
+      "VII": "ECO",
+      "VIII": "HINDI/MATHS"
+    },
+    "THURS": {
+      "I": "ACC",
+      "II": "ECO",
+      "III": "MATHS/LIB",
+      "IV": "ENG",
+      "V": "BSTY",
+      "VI": "BSTY",
+      "VII": "ECO",
+      "VIII": "HINDI/MATHS"
+    },
+    "FRI": {
+      "I": "ACC",
+      "II": "HINDI/GMS",
+      "III": "ECO",
+      "IV": "ENG",
+      "V": "BSTY",
+      "VI": "BSTY",
+      "VII": "ECO",
+      "VIII": "GMS/MATHS"
+    },
+    "SAT": {
+      "I": "ACC",
+      "II": "HINDI/LIB",
+      "III": "ECO",
+      "IV": "ENG",
+      "V": "BSTY",
+      "VI": "BSTY",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  },
+  "XI HUM": {
+    "MON": {
+      "I": "HINDI",
+      "II": "COUN",
+      "III": "ECO/SOCIO",
+      "IV": "GEO",
+      "V": "HISTORY",
+      "VI": "HINDI",
+      "VII": "ENG",
+      "VIII": "GEO"
+    },
+    "TUES": {
+      "I": "ENG",
+      "II": "GEO",
+      "III": "ECO/SOCIO",
+      "IV": "GEO",
+      "V": "HISTORY",
+      "VI": "HINDI",
+      "VII": "HINDI",
+      "VIII": "AI"
+    },
+    "WED": {
+      "I": "ENG",
+      "II": "GS",
+      "III": "ECO/SOCIO",
+      "IV": "GEO",
+      "V": "HISTORY",
+      "VI": "HINDI",
+      "VII": "AI",
+      "VIII": "GEO"
+    },
+    "THURS": {
+      "I": "ENG",
+      "II": "SOCIO/ECO",
+      "III": "GMS/SOCIO",
+      "IV": "GEO",
+      "V": "HISTORY",
+      "VI": "HISTORY",
+      "VII": "ECO/GMS",
+      "VIII": "ENG"
+    },
+    "FRI": {
+      "I": "ENG",
+      "II": "SOCIO/GAMES",
+      "III": "ECO/SOCIO",
+      "IV": "GEO",
+      "V": "HISTORY",
+      "VI": "HISTORY",
+      "VII": "LIB",
+      "VIII": "HINDI"
+    },
+    "SAT": {
+      "I": "AI",
+      "II": "SOCIO/GAMES",
+      "III": "ECO/SOCIO",
+      "IV": "GEO",
+      "V": "HISTORY",
+      "VI": "HISTORY",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  },
+  "XII SCI": {
+    "MON": {
+      "I": "ENG",
+      "II": "MATHS/BIO",
+      "III": "PHY",
+      "IV": "C/S HIN",
+      "V": "MATHS/BIO",
+      "VI": "CS/GMS",
+      "VII": "PHY/CHEM(PR)",
+      "VIII": "PHY/CHEM(PR)"
+    },
+    "TUES": {
+      "I": "CHEM",
+      "II": "MATHS/BIO",
+      "III": "PHY",
+      "IV": "C/S HIN",
+      "V": "MATHS/BIO",
+      "VI": "WE",
+      "VII": "PHY/CHEM(PR)",
+      "VIII": "PHY/CHEM(PR)"
+    },
+    "WED": {
+      "I": "MATHS/BIO",
+      "II": "ENG",
+      "III": "PHY",
+      "IV": "HIN/LIB",
+      "V": "CHEM",
+      "VI": "PHY",
+      "VII": "PHY/CHEM(PR)",
+      "VIII": "PHY/CHEM(PR)"
+    },
+    "THURS": {
+      "I": "CHEM",
+      "II": "MATHS/BIO",
+      "III": "PHY",
+      "IV": "HIN/GMS",
+      "V": "CS/WE",
+      "VI": "ENG",
+      "VII": "PHY/CHEM(PR)",
+      "VIII": "PHY/CHEM(PR)"
+    },
+    "FRI": {
+      "I": "CHEM",
+      "II": "MATHS/BIO",
+      "III": "ENG",
+      "IV": "HIN/GS",
+      "V": "CS/LIB",
+      "VI": "ENG",
+      "VII": "CS/GMS(H)",
+      "VIII": "CS/GMS(H)"
+    },
+    "SAT": {
+      "I": "CHEM",
+      "II": "MATHS/BIO",
+      "III": "ENG",
+      "IV": "HIN/GMS",
+      "V": "CS/YOGA",
+      "VI": "CS/GMS(H)",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  },
+  "XII COM": {
+    "MON": {
+      "I": "ECO",
+      "II": "IP/WE",
+      "III": "ACC",
+      "IV": "HIN/GAMES",
+      "V": "ECO",
+      "VI": "ENG",
+      "VII": "BSTY",
+      "VIII": "BSTY"
+    },
+    "TUES": {
+      "I": "ECO",
+      "II": "IP/GMS",
+      "III": "ACC",
+      "IV": "IP/GMS",
+      "V": "ENG",
+      "VI": "ENG",
+      "VII": "BSTY",
+      "VIII": "BSTY"
+    },
+    "WED": {
+      "I": "ECO",
+      "II": "ECO",
+      "III": "ACC",
+      "IV": "HIN/IP",
+      "V": "IP/LIB",
+      "VI": "ENG",
+      "VII": "BSTY",
+      "VIII": "BSTY"
+    },
+    "THURS": {
+      "I": "ECO",
+      "II": "ACC",
+      "III": "ACC",
+      "IV": "HIN/IP",
+      "V": "ECO",
+      "VI": "IP/WE",
+      "VII": "BSTY",
+      "VIII": "BSTY"
+    },
+    "FRI": {
+      "I": "ECO",
+      "II": "ACC",
+      "III": "ACC",
+      "IV": "HIN/LIB",
+      "V": "ENG",
+      "VI": "IP/GS",
+      "VII": "BSTY",
+      "VIII": "BSTY"
+    },
+    "SAT": {
+      "I": "ECO",
+      "II": "ACC",
+      "III": "ACC",
+      "IV": "HIN/IP",
+      "V": "ENG",
+      "VI": "YOGA",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  },
+  "XII HUM": {
+    "MON": {
+      "I": "ECO/SOCIO",
+      "II": "SOCIO/WE",
+      "III": "HINDI",
+      "IV": "ENG",
+      "V": "ECO/GMS",
+      "VI": "GEO",
+      "VII": "HISTORY",
+      "VIII": "ENG"
+    },
+    "TUES": {
+      "I": "ECO/SOCIO",
+      "II": "SOCIO/GMS",
+      "III": "GEO",
+      "IV": "ENG",
+      "V": "GAMES",
+      "VI": "HISTORY",
+      "VII": "HISTORY",
+      "VIII": "GAMES"
+    },
+    "WED": {
+      "I": "ECO/SOCIO",
+      "II": "SOCIO/ECO",
+      "III": "GEO",
+      "IV": "HISTORY",
+      "V": "HINDI",
+      "VI": "HISTORY",
+      "VII": "HISTORY",
+      "VIII": "ENG"
+    },
+    "THURS": {
+      "I": "ECO/SOCIO",
+      "II": "ENG",
+      "III": "GEO",
+      "IV": "WE",
+      "V": "ECO/GS",
+      "VI": "HINDI",
+      "VII": "HISTORY",
+      "VIII": "GEO"
+    },
+    "FRI": {
+      "I": "ECO/SOCIO",
+      "II": "GEO",
+      "III": "GEO",
+      "IV": "GS",
+      "V": "HINDI",
+      "VI": "LIB",
+      "VII": "HISTORY",
+      "VIII": "ENG"
+    },
+    "SAT": {
+      "I": "ECO/SOCIO",
+      "II": "GEO",
+      "III": "GEO",
+      "IV": "HIS",
+      "V": "HINDI",
+      "VI": "HINDI",
+      "VII": "CCA",
+      "VIII": "CCA"
+    }
+  }
+}

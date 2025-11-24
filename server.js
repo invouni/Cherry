@@ -1,10 +1,6 @@
-import express from 'express';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import cherry from './controllers/talkController.js';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const express = require('express');
+const path = require('path');
+const cherry = require('./controllers/talkController.js');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -34,12 +30,16 @@ app.get('/talk', (req, res) => {
     res.render('talk');
 });
 
-app.post('/ques', async (req,res) => {
-    console.log(req.body)
-    let responce = await cherry(req.body)
-    console.log(responce)
-    res.json({ responce })
-})
+app.post('/ques', async (req, res) => {
+    try {
+        console.log('Request body:', req.body);
+        const response = await cherry(req.body);
+        res.json(response);
+    } catch (error) {
+        console.error('Error in /ques route:', error);
+        res.status(500).json({ error: 'Internal server error' });
+    }
+});
 // Error page (fallback)
 app.use((req, res) => {
     res.status(404).render('error', { message: 'Page Not Found' });

@@ -1,0 +1,1261 @@
+[
+  {
+    "name": "Sh. SOM PAL",
+    "designation": "PRINCIPAL",
+    "schedule": {}
+  },
+  {
+    "name": "SH RAJESH KUMAR MISHRA",
+    "designation": "VICE PRINCIPAL",
+    "schedule": {
+      "TUES": {
+        "II": "XI H",
+        "V": "XII H",
+        "VI": "XI COM"
+      },
+      "FRI": {
+        "IV": "XIIH/ SCI(CS",
+        "VI": "XII COM  (H)"
+      }
+    }
+  },
+  {
+    "name": "SMT RICHA SRIVASTAVA",
+    "designation": "PGT CHEM",
+    "schedule": {
+      "MON": {
+        "II": "VII",
+        "VII": "XII SCI",
+        "VIII": "XII SCI"
+      },
+      "TUES": {
+        "I": "XII SCI",
+        "II": "VII",
+        "V": "XI SCI",
+        "VI": "XI SCI",
+        "VII": "XII SCI",
+        "VIII": "XII SCI"
+      },
+      "WED": {
+        "II": "VII",
+        "III": "IX",
+        "V": "XII SCI",
+        "VII": "XII SCI",
+        "VIII": "XII SCI"
+      },
+      "THURS": {
+        "I": "XII SCI",
+        "II": "VII",
+        "V": "X",
+        "VI": "XI SCI",
+        "VII": "XII SCI",
+        "VIII": "XII SCI"
+      },
+      "FRI": {
+        "I": "XII SCI",
+        "II": "VII",
+        "III": "IX",
+        "V": "XI SCI",
+        "VI": "XI SCI",
+        "VII": "X"
+      },
+      "SAT": {
+        "I": "XII SCI",
+        "II": "VII",
+        "V": "XI SCI",
+        "VI": "XI SCI"
+      }
+    }
+  },
+  {
+    "name": "SH SANJEEV KUMAR",
+    "designation": "PGT PHY",
+    "schedule": {
+      "MON": {
+        "I": "XI SCI",
+        "II": "VIII",
+        "III": "XII SCI",
+        "V": "XI SCI",
+        "VI": "XI SCI",
+        "VII": "XII SCI",
+        "VIII": "XII SCI"
+      },
+      "TUES": {
+        "I": "XI SCI",
+        "II": "VIII",
+        "III": "XII SCI",
+        "V": "XI SCI",
+        "VI": "XI SCI",
+        "VII": "XII SCI",
+        "VIII": "XII SCI"
+      },
+      "WED": {
+        "I": "XI SCI",
+        "II": "VIII",
+        "III": "XII SCI",
+        "V": "X",
+        "VI": "XII SCI",
+        "VII": "XII SCI",
+        "VIII": "XII SCI"
+      },
+      "THURS": {
+        "I": "XI SCI",
+        "II": "VIII",
+        "III": "XII SCI",
+        "V": "IX",
+        "VII": "XII SCI",
+        "VIII": "XII SCI"
+      },
+      "FRI": {
+        "I": "XI SCI",
+        "II": "VIII",
+        "V": "XI SCI",
+        "VI": "XI SCI"
+      },
+      "SAT": {
+        "II": "VIII",
+        "III": "X",
+        "V": "XI SCI",
+        "VI": "XI SCI",
+        "VIII": "IX"
+      }
+    }
+  },
+  {
+    "name": "SMT APARNA PANDEY",
+    "designation": "PGT ENG",
+    "schedule": {
+      "MON": {
+        "I": "XII SCI",
+        "II": "XI SCI",
+        "IV": "XII HUM",
+        "V": "XI COM",
+        "VI": "XII COM",
+        "VII": "XI HUM",
+        "VIII": "XII HUM"
+      },
+      "TUES": {
+        "I": "XI HUM",
+        "II": "XI SCI",
+        "IV": "XII HUM",
+        "V": "XII COM",
+        "VI": "XII COM",
+        "VII": "XI COM"
+      },
+      "WED": {
+        "I": "XI HUM",
+        "II": "XI SCI",
+        "IV": "XI COM",
+        "VI": "XII COM",
+        "VII": "XI SCI",
+        "VIII": "XII HUM"
+      },
+      "THURS": {
+        "I": "XI HUM",
+        "II": "0",
+        "IV": "XI COM",
+        "V": "XI SCI",
+        "VI": "XII SCI",
+        "VIII": "XI HUM"
+      },
+      "FRI": {
+        "I": "XI HUM",
+        "II": "0",
+        "III": "XII SCI",
+        "IV": "XI COM",
+        "V": "XII COM",
+        "VI": "XII SCI",
+        "VIII": "XII HUM"
+      },
+      "SAT": {
+        "I": "XI SCI",
+        "III": "XII SCI",
+        "IV": "XI COM",
+        "VI": "0",
+        "VII": "XII COM CCA"
+      }
+    }
+  },
+  {
+    "name": "SH GAURAV PANDEY",
+    "designation": "PGT MATH",
+    "schedule": {
+      "MON": {
+        "I": "X",
+        "II": "XII SCI",
+        "IV": "XI COM",
+        "V": "XII SCI",
+        "VII": "XI SCI",
+        "VIII": "XI COM"
+      },
+      "TUES": {
+        "I": "X",
+        "II": "XII SCI",
+        "III": "XI SCI",
+        "IV": "XI COM",
+        "V": "XII SCI",
+        "VIII": "XI SCI/ COM"
+      },
+      "WED": {
+        "I": "XII SCI",
+        "II": "XII SCI",
+        "V": "XI SCI/ COM",
+        "VII": "X",
+        "VIII": "XI COM"
+      },
+      "THURS": {
+        "I": "X",
+        "II": "XII SCI",
+        "III": "XI SCI/COM",
+        "V": "0",
+        "VIII": "XI SCI"
+      },
+      "FRI": {
+        "I": "X",
+        "II": "XII SCI",
+        "V": "X",
+        "VIII": "XI SCI/COM"
+      },
+      "SAT": {
+        "I": "X",
+        "II": "XII SCI",
+        "IV": "XI SCI",
+        "VII": "CCA (XII SCI)",
+        "VIII": "CCA( XII SCI)"
+      }
+    }
+  },
+  {
+    "name": "SH SHAILESH KUMAR",
+    "designation": "PGT HINDI",
+    "schedule": {
+      "MON": {
+        "I": "XI HUM",
+        "II": "X",
+        "III": "XII HUM",
+        "IV": "XII SCI/C",
+        "VI": "XI HUM",
+        "VIII": "XI SCI/C"
+      },
+      "TUES": {
+        "II": "X",
+        "III": "X",
+        "IV": "XII SCI/C",
+        "VI": "XI HUM",
+        "VII": "XI HUM",
+        "VIII": "XI COM"
+      },
+      "WED": {
+        "II": "X",
+        "III": "X",
+        "IV": "XII SCI/C",
+        "V": "XII HUM",
+        "VI": "XI HUM",
+        "VIII": "XI SCI/C"
+      },
+      "THURS": {
+        "II": "XI SCI",
+        "III": "X",
+        "IV": "XII SCI/C",
+        "VI": "XII HUM"
+      },
+      "FRI": {
+        "II": "XI SCI/C",
+        "III": "X",
+        "IV": "XII SCI/C",
+        "V": "XII HUM",
+        "VIII": "XI HUM"
+      },
+      "SAT": {
+        "II": "XI SCI/C",
+        "IV": "XII SCI/C",
+        "V": "XII HUM",
+        "VI": "XII HUM"
+      }
+    }
+  },
+  {
+    "name": "Ms. KIRAN",
+    "designation": "PGT COMM",
+    "schedule": {
+      "MON": {
+        "I": "XI COM",
+        "II": "XI COM",
+        "III": "XII COM",
+        "VI": "XI COM",
+        "VII": "XII COM",
+        "VIII": "XII COM"
+      },
+      "TUES": {
+        "I": "XI COM",
+        "II": "XI COM",
+        "III": "XII COM",
+        "VI": "XI COM",
+        "VII": "XII COM",
+        "VIII": "XII COM"
+      },
+      "WED": {
+        "I": "XI COM",
+        "II": "XI COM",
+        "III": "XII COM",
+        "VI": "XI COM",
+        "VII": "XII COM",
+        "VIII": "XII COM"
+      },
+      "THURS": {
+        "I": "XI COM",
+        "II": "XII COM",
+        "III": "XII COM",
+        "V": "XI COM",
+        "VI": "XI COM",
+        "VIII": "XII COM"
+      },
+      "FRI": {
+        "I": "XI COM",
+        "II": "XII COM",
+        "III": "XII COM",
+        "V": "XI COM",
+        "VI": "XI COM",
+        "VII": "XII COM",
+        "VIII": "XII COM"
+      },
+      "SAT": {
+        "I": "XI COM",
+        "II": "XII COM",
+        "III": "XII COM",
+        "V": "XI COM",
+        "VI": "XI COM"
+      }
+    }
+  },
+  {
+    "name": "SMT DEEPA PARIHAR",
+    "designation": "PGT BIO",
+    "schedule": {
+      "MON": {
+        "II": "XII SCI",
+        "IV": "VI",
+        "V": "XII SCI",
+        "VI": "X",
+        "VII": "XI SCI"
+      },
+      "TUES": {
+        "II": "XII SCI",
+        "III": "XI SCI",
+        "IV": "VI",
+        "V": "XII SCI",
+        "VIII": "XI SCI"
+      },
+      "WED": {
+        "I": "XII SCI",
+        "II": "XII SCI",
+        "IV": "VI",
+        "VI": "XI SCI"
+      },
+      "THURS": {
+        "I": "IX",
+        "II": "XII SCI",
+        "IV": "VI",
+        "VII": "0",
+        "VIII": "XI SCI"
+      },
+      "FRI": {
+        "I": "IX",
+        "II": "XII SCI",
+        "IV": "VI",
+        "VI": "0",
+        "VII": "0",
+        "VIII": "XI SCI"
+      },
+      "SAT": {
+        "I": "IX",
+        "II": "XII SCI",
+        "IV": "XI S",
+        "V": "X",
+        "VI": "VI",
+        "VII": "CCA (IX)",
+        "VIII": "CCA (IX)"
+      }
+    }
+  },
+  {
+    "name": "MRS VEENU GHAI",
+    "designation": "PGT C.S.",
+    "schedule": {
+      "MON": {
+        "III": "XI SCI",
+        "IV": "XII SCI",
+        "VI": "XII SCI",
+        "VIII": "XI SCI"
+      },
+      "TUES": {
+        "II": "XII COM",
+        "V": "XI COM",
+        "VII": "XI SCI",
+        "VIII": "XI HUM"
+      },
+      "WED": {
+        "III": "XI SCI",
+        "IV": "XII COM",
+        "V": "XII COM",
+        "VII": "XI HUM"
+      },
+      "THURS": {
+        "II": "0",
+        "III": "XI HUM",
+        "IV": "XII COM",
+        "V": "XII SCI",
+        "VI": "XII COM"
+      },
+      "FRI": {
+        "II": "0",
+        "III": "XI SCI",
+        "IV": "XI SCI",
+        "V": "XII SCI",
+        "VI": "XII COM",
+        "VII": "XII SCI",
+        "VIII": "XII SCI"
+      },
+      "SAT": {
+        "I": "XI HUM",
+        "II": "XI SCI",
+        "IV": "XII COM",
+        "V": "XII SCI",
+        "VI": "XII SCI",
+        "VII": "0",
+        "VIII": "0"
+      }
+    }
+  },
+  {
+    "name": "MS MEERA DUBEY",
+    "designation": "PGT ECO",
+    "schedule": {
+      "MON": {
+        "I": "XII COM/H",
+        "VI": "VIII",
+        "VIII": "X"
+      },
+      "TUES": {
+        "III": "XI COM/H",
+        "VI": "VIII"
+      },
+      "WED": {
+        "I": "XII COM/H",
+        "III": "XI COM/H",
+        "VI": "VIII",
+        "VII": "XI COM",
+        "VIII": "IX"
+      },
+      "THURS": {
+        "I": "XII COM/H",
+        "VII": "XI COM"
+      },
+      "FRI": {
+        "I": "XII COM/H",
+        "V": "XII COM/H",
+        "VI": "VIII",
+        "VII": "XI COM",
+        "VIII": "X"
+      },
+      "SAT": {
+        "I": "XII COM/H",
+        "V": "IX",
+        "VI": "VIII"
+      }
+    }
+  },
+  {
+    "name": "SH AK SRIVASTAV",
+    "designation": "PGT GEO",
+    "schedule": {
+      "TUES": {
+        "II": "XI HUM",
+        "III": "XII HUM",
+        "IV": "XI HUM",
+        "VII": "VII",
+        "VIII": "0"
+      },
+      "WED": {
+        "III": "XII HUM",
+        "IV": "XI HUM",
+        "VII": "VII",
+        "VIII": "XI HUM"
+      },
+      "THURS": {
+        "II": "XII HUM",
+        "IV": "XI HUM",
+        "VII": "VII",
+        "VIII": "XII HUM"
+      },
+      "FRI": {
+        "II": "XII HUM",
+        "IV": "XI HUM",
+        "VII": "VII",
+        "VIII": "VII"
+      },
+      "SAT": {
+        "II": "XII HUM",
+        "III": "XII HUM",
+        "IV": "XI HUM",
+        "VI": "X",
+        "VII": "CCA( XII HUM)",
+        "VIII": "CCA( XII HUM)"
+      }
+    }
+  },
+  {
+    "name": "DR MITALI",
+    "designation": "PGT HIST",
+    "schedule": {
+      "MON": {
+        "I": "IX",
+        "II": "VI",
+        "V": "XI HUM",
+        "VII": "XII HUM"
+      },
+      "TUES": {
+        "I": "IX",
+        "II": "VI",
+        "V": "XI HUM",
+        "VI": "XII HUM",
+        "VII": "XII HUM"
+      },
+      "WED": {
+        "I": "IX",
+        "II": "VI",
+        "IV": "XII HUM",
+        "V": "XI HUM",
+        "VI": "XII HUM",
+        "VII": "XII HUM"
+      },
+      "THURS": {
+        "V": "XI HUM",
+        "VII": "XII HUM"
+      },
+      "FRI": {
+        "V": "XI HUM",
+        "VI": "XI HUM",
+        "VII": "XII HUM",
+        "VIII": "CCA(XI HUM)"
+      },
+      "SAT": {
+        "II": "VI",
+        "IV": "IX",
+        "V": "XI HUM",
+        "VI": "XI HUM",
+        "VII": "CCA(XI HUM)"
+      }
+    }
+  },
+  {
+    "name": "SH NK PANDEY",
+    "designation": "TGT ENG",
+    "schedule": {
+      "MON": {
+        "I": "VIII",
+        "II": "IX",
+        "IV": "X",
+        "V": "X"
+      },
+      "TUES": {
+        "I": "VIII",
+        "II": "IX",
+        "IV": "X",
+        "V": "VI",
+        "VI": "VII",
+        "VIII": "IX"
+      },
+      "WED": {
+        "I": "VIII",
+        "II": "IX",
+        "IV": "X",
+        "V": "VI",
+        "VI": "VII",
+        "VIII": "VII"
+      },
+      "THURS": {
+        "I": "VIII",
+        "II": "IX",
+        "IV": "X",
+        "V": "VI",
+        "VI": "VII"
+      },
+      "FRI": {
+        "I": "VIII",
+        "II": "IX",
+        "IV": "X",
+        "V": "VI",
+        "VI": "VII"
+      },
+      "SAT": {
+        "IV": "X",
+        "V": "VI",
+        "VII": "CCA (VIII)",
+        "VIII": "CCA (VIII)"
+      }
+    }
+  },
+  {
+    "name": "MS UPASNA",
+    "designation": "MUSIC",
+    "schedule": {
+      "MON": {
+        "III": "I",
+        "IV": "II",
+        "V": "I",
+        "VII": "VI",
+        "VIII": "I"
+      },
+      "TUES": {
+        "II": "V",
+        "VI": "I",
+        "VIII": "II"
+      },
+      "WED": {
+        "III": "I",
+        "V": "VIII",
+        "VII": "IV",
+        "VIII": "I"
+      },
+      "THURS": {
+        "II": "IV",
+        "VI": "VI",
+        "VII": "III"
+      },
+      "FRI": {
+        "III": "I",
+        "V": "0",
+        "VII": "III"
+      },
+      "SAT": {
+        "III": "V",
+        "IV": "VII",
+        "V": "II",
+        "VI": "II"
+      }
+    }
+  },
+  {
+    "name": "MR AKASH",
+    "designation": "TGT SKT",
+    "schedule": {
+      "MON": {
+        "I": "VI",
+        "III": "VII",
+        "IV": "VII",
+        "V": "IX",
+        "VI": "VI",
+        "VIII": "VIII"
+      },
+      "TUES": {
+        "I": "VI",
+        "III": "VII",
+        "IV": "VII",
+        "V": "IX",
+        "VI": "VI",
+        "VIII": "VIII"
+      },
+      "WED": {
+        "I": "VI",
+        "III": "VII",
+        "IV": "IX",
+        "V": "IX",
+        "VI": "VI",
+        "VIII": "VIII"
+      },
+      "THURS": {
+        "I": "VI",
+        "III": "VII",
+        "IV": "VIII",
+        "VIII": "VIII"
+      },
+      "FRI": {
+        "I": "VI",
+        "III": "VII",
+        "IV": "VIII",
+        "V": "IX",
+        "VII": "IX",
+        "VIII": "VIII"
+      },
+      "SAT": {
+        "III": "VII",
+        "IV": "IX",
+        "VII": "CCA (VI )",
+        "VIII": "CCA (VI )"
+      }
+    }
+  },
+  {
+    "name": "MS SHAGUN SHARMA",
+    "designation": "TGT MATH",
+    "schedule": {
+      "MON": {
+        "I": "VII",
+        "III": "IX",
+        "V": "VI",
+        "VII": "VIII",
+        "VIII": "VI"
+      },
+      "TUES": {
+        "I": "VII",
+        "V": "VII",
+        "VI": "IX",
+        "VII": "VIII",
+        "VIII": "VI"
+      },
+      "WED": {
+        "I": "VII",
+        "VI": "IX",
+        "VII": "VIII",
+        "VIII": "VI"
+      },
+      "THURS": {
+        "I": "VII",
+        "VI": "IX",
+        "VII": "VIII",
+        "VIII": "VI"
+      },
+      "FRI": {
+        "I": "VII",
+        "VI": "IX",
+        "VII": "VIII",
+        "VIII": "VI"
+      },
+      "SAT": {
+        "III": "VIII",
+        "VI": "IX"
+      }
+    }
+  },
+  {
+    "name": "SH RAKESH KUMAR",
+    "designation": "TGT WET",
+    "schedule": {
+      "MON": {
+        "I": "XI HUM",
+        "VII": "X"
+      },
+      "TUES": {
+        "II": "XII C( HIN)/ XII H ( ECO)",
+        "IV": "XI COM(H)",
+        "V": "X",
+        "VI": "XII SC",
+        "VIII": "VII"
+      },
+      "WED": {
+        "III": "XI S(HIN)",
+        "VI": "0",
+        "VIII": "XIS (CS)"
+      },
+      "THURS": {
+        "III": "VI",
+        "IV": "XII HUM",
+        "V": "XII SC (HIN)",
+        "VII": "IX"
+      },
+      "FRI": {
+        "III": "VIII",
+        "V": "0",
+        "VI": "VI",
+        "VII": "XI H"
+      },
+      "SAT": {
+        "III": "VI",
+        "VIII": "CCA (XII COM )"
+      }
+    }
+  },
+  {
+    "name": "Smt. PURNIMA TRIPATHI",
+    "designation": "Lib.",
+    "schedule": {
+      "MON": {
+        "VII": "IV"
+      },
+      "TUES": {
+        "VI": "0"
+      },
+      "WED": {
+        "I": "X",
+        "IV": "XII SCI (C/S)"
+      },
+      "THURS": {
+        "III": "XI COM(HIN)",
+        "IV": "VII",
+        "VII": "VI"
+      },
+      "FRI": {
+        "III": "VI",
+        "IV": "XII COM (IP)",
+        "V": "XII SC (HIN)",
+        "VI": "XII HUM",
+        "VIII": "V"
+      },
+      "SAT": {
+        "II": "XI SCI(CS)+ XI COM(M)",
+        "VII": "VII CCA",
+        "VIII": "CCA( VII)"
+      }
+    }
+  },
+  {
+    "name": "MRS KRITI",
+    "designation": "TGT DRAW.",
+    "schedule": {
+      "MON": {
+        "III": "VIII",
+        "IV": "V",
+        "V": "VII",
+        "VII": "IX",
+        "VIII": "VII"
+      },
+      "TUES": {
+        "III": "VIII",
+        "IV": "III",
+        "V": "II",
+        "VII": "VI",
+        "VIII": "X"
+      },
+      "WED": {
+        "III": "VI",
+        "IV": "VII",
+        "VII": "I"
+      },
+      "THURS": {
+        "III": "IV",
+        "IV": "V",
+        "VII": "X"
+      },
+      "FRI": {
+        "III": "V",
+        "VII": "II",
+        "VIII": "IV"
+      },
+      "SAT": {
+        "III": "III",
+        "VI": "II",
+        "VII": "XI SCI CCA",
+        "VIII": "CCA(XI SCI)"
+      }
+    }
+  },
+  {
+    "name": "SH MANGESH",
+    "designation": "TGT PHE",
+    "schedule": {
+      "TUES": {
+        "II": "XII C( HIN)/ XII H ( ECO)",
+        "V": "XII HUM",
+        "VIII": "XII HUM"
+      },
+      "WED": {
+        "V": "XI COM( H)",
+        "VI": "0",
+        "VII": "IX/ VI",
+        "VIII": "X"
+      },
+      "THURS": {
+        "III": "0",
+        "IV": "XII SCI (CS)",
+        "V": "0",
+        "VII": "0"
+      },
+      "FRI": {
+        "III": "XI SCI( H)",
+        "IV": "XI S(HIN)",
+        "VI": "0",
+        "VII": "XII SCI(HIN), VI",
+        "VIII": "XII SCI(HIN) XI COM(H)"
+      },
+      "SAT": {
+        "VI": "XII SCI (HIN)",
+        "VII": "XI COM CCA",
+        "VIII": "CCA (XI COM)"
+      }
+    }
+  },
+  {
+    "name": "MR VIJAY",
+    "designation": "COMP. INST.",
+    "schedule": {
+      "TUES": {
+        "II": "III"
+      },
+      "WED": {
+        "III": "VI",
+        "V": "III",
+        "VIII": "II"
+      },
+      "THURS": {
+        "III": "VIII",
+        "IV": "IV",
+        "VIII": "X"
+      },
+      "FRI": {
+        "III": "IV",
+        "V": "VII"
+      },
+      "SAT": {
+        "VI": "V",
+        "VII": "X CCA",
+        "VIII": "CCA (X )"
+      }
+    }
+  },
+  {
+    "name": "CONTRACTUAL",
+    "designation": "PRT",
+    "schedule": {
+      "MON": {
+        "III": "IV",
+        "IV": "IV",
+        "V": "III",
+        "VI": "III",
+        "VII": "II",
+        "VIII": "V"
+      },
+      "TUES": {
+        "III": "IV",
+        "IV": "IV",
+        "VIII": "V"
+      },
+      "WED": {
+        "III": "IV",
+        "IV": "IV",
+        "VI": "III",
+        "VII": "II",
+        "VIII": "V"
+      },
+      "THURS": {
+        "II": "I",
+        "IV": "0",
+        "V": "III",
+        "VI": "III",
+        "VII": "V",
+        "VIII": "V"
+      },
+      "FRI": {
+        "III": "V",
+        "V": "IV",
+        "VI": "IV",
+        "VII": "0",
+        "VIII": "IV"
+      },
+      "SAT": {
+        "VI": "I",
+        "VII": "III",
+        "VIII": "II"
+      }
+    }
+  },
+  {
+    "name": "MS KRIPA DAS YUGAL",
+    "designation": "PRT",
+    "schedule": {
+      "MON": {
+        "I": "I",
+        "II": "I",
+        "III": "II",
+        "VI": "I",
+        "VII": "0",
+        "VIII": "II"
+      },
+      "TUES": {
+        "I": "I",
+        "II": "I",
+        "III": "II",
+        "IV": "II",
+        "V": "0",
+        "VI": "I",
+        "VIII": "I"
+      },
+      "WED": {
+        "I": "I",
+        "II": "I",
+        "III": "II",
+        "IV": "II",
+        "V": "I",
+        "VI": "I"
+      },
+      "THURS": {
+        "I": "I",
+        "III": "0",
+        "IV": "II",
+        "V": "I",
+        "VI": "I",
+        "VII": "I",
+        "VIII": "II"
+      },
+      "FRI": {
+        "I": "I",
+        "II": "I",
+        "VI": "I",
+        "VIII": "0"
+      },
+      "SAT": {
+        "I": "I",
+        "II": "I",
+        "III": "II",
+        "IV": "II",
+        "VI": "0",
+        "VIII": "I"
+      }
+    }
+  },
+  {
+    "name": "MS ANJALI",
+    "designation": "PRT",
+    "schedule": {
+      "MON": {
+        "I": "II",
+        "II": "II",
+        "IV": "I",
+        "V": "II",
+        "VI": "II",
+        "VII": "I"
+      },
+      "TUES": {
+        "I": "II",
+        "II": "II",
+        "III": "I",
+        "IV": "I",
+        "VI": "II",
+        "VII": "II"
+      },
+      "WED": {
+        "I": "II",
+        "II": "II",
+        "IV": "I",
+        "V": "II",
+        "VI": "II"
+      },
+      "THURS": {
+        "I": "II",
+        "II": "II",
+        "III": "I",
+        "IV": "I",
+        "V": "II",
+        "VII": "II"
+      },
+      "FRI": {
+        "I": "II",
+        "III": "II",
+        "IV": "I",
+        "V": "II",
+        "VI": "II",
+        "VII": "I"
+      },
+      "SAT": {
+        "I": "II",
+        "II": "II",
+        "III": "I",
+        "IV": "I"
+      }
+    }
+  },
+  {
+    "name": "MRS ARTI",
+    "designation": "PRT",
+    "schedule": {
+      "MON": {
+        "I": "III",
+        "II": "III",
+        "V": "IV",
+        "VII": "V",
+        "VIII": "IV"
+      },
+      "TUES": {
+        "I": "III",
+        "III": "V",
+        "IV": "V",
+        "VIII": "IV"
+      },
+      "WED": {
+        "I": "III",
+        "III": "III",
+        "V": "IV",
+        "VII": "V",
+        "VIII": "III"
+      },
+      "THURS": {
+        "I": "III",
+        "II": "V",
+        "III": "V",
+        "V": "IV",
+        "VIII": "IV"
+      },
+      "FRI": {
+        "I": "III",
+        "II": "III",
+        "IV": "IV",
+        "V": "V"
+      },
+      "SAT": {
+        "I": "III",
+        "II": "III",
+        "V": "III",
+        "VI": "III",
+        "VII": "V",
+        "VIII": "V"
+      }
+    }
+  },
+  {
+    "name": "MR SAURABH SANKHWAR",
+    "designation": "PRT",
+    "schedule": {
+      "MON": {
+        "I": "IV",
+        "II": "IV",
+        "III": "III",
+        "IV": "III",
+        "V": "V",
+        "VI": "V"
+      },
+      "TUES": {
+        "I": "IV",
+        "III": "III",
+        "V": "V",
+        "VI": "V",
+        "VIII": "III"
+      },
+      "WED": {
+        "I": "IV",
+        "II": "IV",
+        "IV": "III",
+        "V": "V",
+        "VI": "V"
+      },
+      "THURS": {
+        "I": "IV",
+        "II": "III",
+        "V": "V",
+        "VI": "V",
+        "VII": "0",
+        "VIII": "I"
+      },
+      "FRI": {
+        "I": "IV",
+        "III": "III",
+        "IV": "III",
+        "VII": "V"
+      },
+      "SAT": {
+        "I": "IV",
+        "II": "IV",
+        "III": "IV",
+        "IV": "IV"
+      }
+    }
+  },
+  {
+    "name": "MR SHIVANSHU",
+    "designation": "PRT",
+    "schedule": {
+      "MON": {
+        "I": "V",
+        "II": "V",
+        "III": "V",
+        "VI": "IV"
+      },
+      "TUES": {
+        "I": "V",
+        "II": "IV",
+        "VI": "IV",
+        "VII": "III"
+      },
+      "WED": {
+        "I": "V",
+        "II": "V",
+        "IV": "0",
+        "VI": "0",
+        "VII": "III",
+        "VIII": "IV"
+      },
+      "THURS": {
+        "I": "V",
+        "III": "II",
+        "IV": "III",
+        "VI": "IV",
+        "VII": "IV",
+        "VIII": "III"
+      },
+      "FRI": {
+        "I": "V",
+        "II": "IV",
+        "V": "III",
+        "VI": "III"
+      },
+      "SAT": {
+        "I": "V",
+        "II": "V",
+        "IV": "V",
+        "VI": "IV",
+        "VIII": "III"
+      }
+    }
+  },
+  {
+    "name": "PRT",
+    "designation": "YOGA",
+    "schedule": {
+      "SAT": {
+        "I": "VI,VII,VIII",
+        "II": "IX,X",
+        "IV": "III,IV,V,VI",
+        "V": "XII SC (HIN)",
+        "VI": "XII C + VII",
+        "VII": "I,II"
+      }
+    }
+  },
+  {
+    "name": "SOCIOLOGY",
+    "designation": "SOCIOLOGY",
+    "schedule": {
+      "MON": {
+        "I": "XII HUM",
+        "II": "XII HUM",
+        "III": "XI HUM"
+      },
+      "TUES": {
+        "I": "XII HUM",
+        "II": "XII HUM",
+        "III": "XI HUM"
+      },
+      "WED": {
+        "I": "XII HUM",
+        "II": "XII HUM",
+        "III": "XI HUM"
+      },
+      "THURS": {
+        "I": "XII HUM",
+        "II": "XI HUM",
+        "III": "XI HUM"
+      },
+      "FRI": {
+        "I": "XII HUM",
+        "II": "XI HUM",
+        "III": "XI HUM"
+      },
+      "SAT": {
+        "I": "XII HUM",
+        "II": "XI HUM",
+        "III": "XI HUM"
+      }
+    }
+  },
+  {
+    "name": "COUNSELLOR",
+    "designation": "0",
+    "schedule": {
+      "MON": {
+        "II": "XI HUM"
+      },
+      "SAT": {
+        "III": "XI SCI(H)"
+      }
+    }
+  }
+]
