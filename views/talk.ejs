@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Voice Assistant</title>
+  <style type="text/css" media="all">
+  
+  </style>
+</head>
+
+<body class="bg-gray-200 w-full h-screen flex flex-col gap-2 px-2 py-2">
+  <!-- text -->
+  <div class="speak rounded-md bg-black flex flex-col items-center flex-1 px-4  relative">
+    <div class="typer w-[98%] mx-auto flex gap-1 absolute bottom-[0.5rem]">
+      <input type="text" class="flex-1 px-2 py-3 text-black outline-0 bg-white rounded-full" name="" id="">
+      <button type="submit" class="rounded-full w-[3rem] aspect-square bg-white flex items-center justify-center"><img class="w-[50%]" src="send.svg" alt="" /></button>
+    </div>
+    <div class="container w-full flex-1">
+      <div class="box w-[95%] bg-[#FFFAF5] mx-auto h-auto py-2 px-3 flex flex-col rounded-md my-[0.3rem]">
+        <strong class="text-black "> 🤖</strong>
+        <p class="text-light">hello how arw you </p>
+      </div>
+      <div class="box w-[95%] bg-[#FFFAF5] mx-auto h-auto py-2 px-3 flex flex-col rounded-md my-[0.3rem]">
+        <strong class="text-black ">👦</strong>
+        <p class="text-light">hello how arw you </p>
+      </div>
+    </div>
+    
+    <!-- bolne lagi -->
+  </div>
+  <div class="speak rounded-md bg-[#f9f9f9] flex items-center justify-center flex-1 flex-col">
+    <img class="h-[50%] aspect-[172/129]" src="ai.gif" alt="" />
+    <button id="startBtn" class="bg-blue-600 text-white p-2 rounded active:opacity-[0.8]">
+      Start Cherry
+    </button>
+  </div>
+  <script>
+    let rec;
+    let res = ""
+    document.getElementById("startBtn").onclick = () => {
+      rec = new webkitSpeechRecognition();
+      rec.continuous = true;
+      rec.interimResults = false;
+      rec.lang = "en-US";
+      
+      rec.onresult = (event) => {
+        let finalTrans = "";
+        let interimTrans = "";
+        
+        for (let i = event.resultIndex; i < event.results.length; i++) {
+          const transcript = event.results[i][0].transcript;
+          
+          if (event.results[i].isFinal) {
+            finalTrans += transcript + " ";
+          } else {
+            interimTrans += transcript + " ";
+          }
+        }
+        
+        
+        async function sendQuestion() {
+  const data = { question: finalTrans };
+
+  try {
+    const response = await fetch('/ques', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+
+    const result = await response.json(); // parse JSON response
+    console.log(result); // { message: "hello how are you" }
+  } catch (err) {
+    console.error('Error:', err);
+  }
+}
+
+sendQuestion();
+      };
+      
+      rec.onerror = (e) => console.log("Error:", e.error);
+      rec.onend = () => console.log("Recognition ended (auto-stop)");
+      
+      rec.start();
+    };
+  </script>
+</body>
+
+</html>
