@@ -70,9 +70,8 @@
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(data)
     });
-
-    const result = await response.json(); // parse JSON response
-    console.log(result); // { message: "hello how are you" }
+; // parse JSON response
+    console.log(responce); // { message: "hello how are you" }
   } catch (err) {
     console.error('Error:', err);
   }

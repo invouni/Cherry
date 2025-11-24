@@ -37,6 +37,7 @@ app.get('/talk', (req, res) => {
 app.post('/ques', async (req,res) => {
     console.log(req.body)
     let responce = await cherry(req.body)
+    console.log(responce)
     res.json({ responce })
 })
 // Error page (fallback)
