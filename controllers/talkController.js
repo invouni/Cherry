@@ -1,84 +1,81 @@
+// ---------------------------------------------
+// Imports & Data
+// ---------------------------------------------
 const { GoogleGenAI } = require("@google/genai");
-const fs = require('fs').promises;
-const path = require('path');
 
-// Define the file path for the chat history
-const HISTORY_FILE = path.join(process.cwd(), 'history.json');
-const MODEL_NAME = "gemini-2.5-flash";
+// JSON datasets
+const timetable = require("../jsons/studTT.json");
+const teachersTt = require("../jsons/teachersTt.json");
+const pdInfo = require("../jsons/pdInfo.json");
+const rooms = require("../jsons/classes.json");
 
-const ai = new GoogleGenAI({
-  apiKey: process.env.GEMINI_API_KEY
-});
+// Gemini AI instance
+const ai = new GoogleGenAI({});
 
-/**
- * Loads the chat history from the JSON file.
- * Returns an array of Content objects or an empty array if the file doesn't exist.
- */
-async function loadHistory() {
-  try {
-    const data = await fs.readFile(HISTORY_FILE, 'utf-8');
-    const parsed = JSON.parse(data);
-    // Ensure it's an array and not empty string
-    return Array.isArray(parsed) ? parsed : [];
-  } catch (error) {
-    if (error.code === 'ENOENT' || error.name === 'SyntaxError') {
-      console.log("No existing history file found. Starting a new chat.");
-      return [];
-    }
-    console.error("Error loading history:", error);
-    return [];
-  }
+// Chat session (initialized later)
+let chat;
+
+// ---------------------------------------------
+// Initialize AI Chat Session
+// ---------------------------------------------
+async function init() {
+  console.log("Initializing");
+
+  // Main instruction prompt for the AI
+  const prompt = `
+You are a helpful, intelligent, and interactive student-assistant AI. 
+Your role is to assist students and teachers in a school environment with the following capabilities:
+
+1. Answer academic questions clearly with step-by-step reasoning also asnwer jokes ques and other ques related to any type of knowlage.
+2. Handle timetables: show, check, update for students or teachers.
+3. Adjust schedules when teachers are absent and suggest substitutes.
+4. Resolve timetable conflicts and propose alternatives.
+5. Keep tone friendly, polite, and professional.
+6. Use only the JSON data provided and ask when data is missing.
+7. Keep responses short and crisp.
+8. Do not use any special characters. Only plain text since responses are spoken.
+`;
+
+  // Load JSON data into the context
+  const dataPrompt = `
+timetable of students: ${JSON.stringify(timetable)}
+teachers timetable: ${JSON.stringify(teachersTt)}
+teachers and all info: ${JSON.stringify(pdInfo)}
+all classes: ${JSON.stringify(rooms)}
+`;
+
+  // Create a persistent chat session with initial history
+  chat = ai.chats.create({
+    model: "gemini-2.5-flash",
+    history: [
+      { role: "user", parts: [{ text: "Hello" }] },
+      { role: "model", parts: [{ text: "Great to meet you. What would you like to know?" }] },
+
+      { role: "user", parts: [{ text: prompt }] },
+      { role: "model", parts: [{ text: "I am ready to assist you" }] },
+
+      { role: "user", parts: [{ text: "I will provide you JSON and you will train according to the data which is simply a timetable" }] },
+      { role: "model", parts: [{ text: "I will understand all the parts and will assist you" }] },
+
+      { role: "user", parts: [{ text: dataPrompt }] }
+    ]
+  });
+
+  console.log("Chat initialized");
 }
 
-/**
- * Saves the current chat history to the JSON file.
- */
-async function saveHistory(history) {
-  try {
-    // Write the history array in JSON format
-    await fs.writeFile(HISTORY_FILE, JSON.stringify(history, null, 2), 'utf-8');
-    console.log(`\nChat history saved to ${HISTORY_FILE}`);
-  } catch (error) {
-    console.error("Error saving history:", error);
-  }
+// ---------------------------------------------
+// Handle AI Query
+// ---------------------------------------------
+async function cherry(ques) {
+  // Send the question as a message
+  const response = await chat.sendMessage({ message: ques.question });
+
+  console.log(response);
+  return response;
 }
 
-async function cherry(requestData) {
-  try {
-    // Extract question from request data
-    const question = requestData.question || requestData.message || '';
-    
-    if (!question) {
-      return { error: "No question provided" };
-    }
-
-    console.log("Received question:", question);
-
-    // Load previous history
-    const initialHistory = await loadHistory();
-
-    // Create the chat session with the loaded history
-    const chat = ai.models.chat({
-      model: MODEL_NAME,
-      history: initialHistory,
-    });
-
-    // Send the user's message
-    const response = await chat.sendMessage(question);
-    
-    // Get the response text
-    const responseText = response.text;
-    console.log("AI Response:", responseText);
-
-    // Get the updated history and save it
-    const currentHistory = chat.history || [];
-    await saveHistory(currentHistory);
-
-    return { message: responseText };
-  } catch (error) {
-    console.error("Error in chat:", error);
-    return { error: error.message || "An error occurred" };
-  }
-}
-
-module.exports = cherry;
+// ---------------------------------------------
+// Exports
+// ---------------------------------------------
+module.exports = { init, cherry };
